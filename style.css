@@ -18,10 +18,11 @@
 .row{
     display: flex;
     justify-content: space-between;
-    background-image: url("bg-1.png");
+    background-image: url("bg-1.png") ;
     background-repeat: no-repeat;
     background-position-x: center;
     align-items: center;
+   
 }
 .carousel-inner .row p{
     color: rgba(0, 0, 0, 0.5);
@@ -65,4 +66,79 @@
 }
 .but:nth-child(1){
     background-color: orange;
+}
+.smart{
+    display: flex;
+    justify-content: space-between;
+}
+.smart h6 a{
+    color:orange;
+    text-decoration: none;
+}
+.card-body{
+    
+    text-align: center;
+}
+.products img{
+    width: 200px;
+    
+    
+}
+.products .card{
+    border: none;
+    align-items: center;
+    margin-top: 50px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px 0;
+    border-radius: 10px;
+    
+}
+.card-text{
+    color: rgba(0, 0, 0, 0.6);
+}
+.categories{
+    margin-top: 100px;
+}
+.categories .row{
+    display: flex;
+    align-items: center;
+
+}
+.categories .col-md-6{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.categories h1{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-size: 30px;
+
+}
+.categories h1::after{
+    content: " ";
+    width: 100px;
+    height: 5px;
+    background: linear-gradient(to right, rgba(255, 166, 0, 0.705),orange);
+    border-radius: 30px;
+    position: relative;
+    top: 50px;
+    left: -10%;
+}
+.cat{
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    padding-right: 70px;
+}
+.cat img{
+    width: 100px;
+}
+.cat1{
+    margin-bottom: 40px;
+}
+.pale{
+    width: 90%;
 }
