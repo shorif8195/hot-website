@@ -1,0 +1,68 @@
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: 100px;
+    align-items: center;
+}
+.header .container img{
+    width: 150px;
+}
+.nav li a{
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 14px;
+}
+.container{
+    margin-bottom: 50px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    background-image: url("bg-1.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    align-items: center;
+}
+.carousel-inner .row p{
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 30px;
+    
+}
+.carousel-inner .row h1{
+    color: rgba(0, 0, 0, 0.9);
+}
+.buy-now{
+    border: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+.banner-top{
+    background-image: url("bg-2.png");
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-position-x: 60px;
+    background-size: 150px;
+    height: 60vh;
+  
+}
+
+
+.but{
+    width: 20px;
+    height: 5px;
+    background-color: gray;
+    margin-right: 30px;
+    border-radius: 5px;
+    margin-top: 70px;
+    
+}
+.butty{
+    display: flex;
+    justify-content: center ;
+    
+}
+.but:nth-child(1){
+    background-color: orange;
+}
