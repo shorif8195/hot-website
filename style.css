@@ -15,7 +15,7 @@
 .container{
     margin-bottom: 50px;
 }
-.row{
+.banner .row{
     display: flex;
     justify-content: space-between;
     background-image: url("bg-1.png") ;
