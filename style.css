@@ -38,6 +38,7 @@
     color: white;
     border-radius: 5px;
     padding: 10px 30px;
+    
 }
 .banner-top{
     background-image: url("bg-2.png");
@@ -70,6 +71,7 @@
 .smart{
     display: flex;
     justify-content: space-between;
+    margin-top: 100px;
 }
 .smart h6 a{
     color:orange;
@@ -84,6 +86,7 @@
     
     
 }
+
 .products .card{
     border: none;
     align-items: center;
